@@ -11,8 +11,8 @@ app.use(cors());
 app.use(route)
 app.use(express.json())
 
-app.listen(8001, () => {
-  console.log('Application is running on port 8001')
+app.listen(8002, () => {
+  console.log('Application is running on port 8002')
 })
 
 

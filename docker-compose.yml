@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   node:
-    container_name: express-docker-starter
+    container_name: express-postgres-starter
     image: node:12.14-slim
     user: node
     working_dir: /usr/src/app
@@ -10,7 +10,7 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-      - '8001:8001'
+      - '8002:8002'
     command: ['/bin/sh', '-c', 'yarn && yarn dev']
 
 

@@ -1,6 +1,7 @@
-const Pool = require('pg').Pool
+import { Pool } from 'pg'
+
 const pool = new Pool({
-  host: 'localhost',
+  host: 'postgres',
   database: 'postgres',
   user: 'postgres',
   password: 'postgres',
